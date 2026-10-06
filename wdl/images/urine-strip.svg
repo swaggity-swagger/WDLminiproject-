@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200" role="img" aria-labelledby="title desc">
+<title id="title">Urine test strip with ten reagent pads</title>
+<desc id="desc">Ten labeled color pads arranged in two rows: glucose, bilirubin, ketones, specific gravity, blood, pH, protein, urobilinogen, nitrite, and leukocytes.</desc>
+<rect width="500" height="200" rx="14" fill="#f5f8fa"/>
+<text x="250" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#1f4f66">URINE TEST STRIP · 10 REAGENT PADS</text>
+<g font-family="Arial,sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#243746">
+<g><rect x="20" y="30" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="43" y="36" width="34" height="26" rx="4" fill="#7bc66e" stroke="#578f50"/><text x="60" y="78">Glucose</text></g>
+<g><rect x="115" y="30" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="138" y="36" width="34" height="26" rx="4" fill="#f1d66a" stroke="#b99b38"/><text x="155" y="78">Bilirubin</text></g>
+<g><rect x="210" y="30" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="233" y="36" width="34" height="26" rx="4" fill="#d39be0" stroke="#9b6eaa"/><text x="250" y="78">Ketones</text></g>
+<g><rect x="305" y="30" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="328" y="36" width="34" height="26" rx="4" fill="#8cc9d1" stroke="#5a9ba4"/><text x="345" y="75">Specific</text><text x="345" y="85">gravity</text></g>
+<g><rect x="400" y="30" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="423" y="36" width="34" height="26" rx="4" fill="#e79a9e" stroke="#b96c71"/><text x="440" y="78">Blood</text></g>
+<g><rect x="20" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="43" y="116" width="34" height="26" rx="4" fill="#f3b85f" stroke="#bd8741"/><text x="60" y="158">pH</text></g>
+<g><rect x="115" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="138" y="116" width="34" height="26" rx="4" fill="#9b8bd0" stroke="#7163a4"/><text x="155" y="158">Protein</text></g>
+<g><rect x="210" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="233" y="116" width="34" height="26" rx="4" fill="#e9a16e" stroke="#b8774b"/><text x="250" y="155">Urobilinogen</text></g>
+<g><rect x="305" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="328" y="116" width="34" height="26" rx="4" fill="#f0a2c5" stroke="#bd7396"/><text x="345" y="158">Nitrite</text></g>
+<g><rect x="400" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#9aabb3"/><rect x="423" y="116" width="34" height="26" rx="4" fill="#d99be3" stroke="#a36cad"/><text x="440" y="155">Leukocytes</text></g>
+</g>
+<text x="250" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#607580">Illustrative diagram · colors are not test results</text>
+</svg>
