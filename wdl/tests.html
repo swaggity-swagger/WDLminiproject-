@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Tests - City Care Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>City Care Hospital</h1>
+    <p>Laboratory Tests</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="tests.html">Laboratory Tests</a>
+    <a href="packages.html">Health Packages</a>
+    <a href="registration.html">Online Registration</a>
+    <a href="reports.html">Reports</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Laboratory Tests</h2>
+
+    <dl>
+        <dt>CBC</dt>
+        <dd>Complete Blood Count used to evaluate different components of blood.</dd>
+
+        <dt>HbA1c</dt>
+        <dd>Provides information about average blood glucose levels over time.</dd>
+
+        <dt>LFT</dt>
+        <dd>Liver Function Test used to assess liver-related parameters.</dd>
+
+        <dt>KFT</dt>
+        <dd>Kidney Function Test used to evaluate kidney-related parameters.</dd>
+
+        <dt>ECG</dt>
+        <dd>Electrocardiogram records the electrical activity of the heart.</dd>
+    </dl>
+</section>
+
+<section>
+    <h2>Urine Test Strip Reader</h2>
+
+    <p>
+        Select any reagent pad from the strip to view its test information.
+    </p>
+
+    <img
+        src="images/urine-strip.svg"
+        alt="Urine Test Strip"
+        class="strip-image"
+        usemap="#testMap">
+
+    <map name="testMap">
+
+        <area shape="rect" coords="20,30,100,90"
+              href="tests/glucose.html">
+
+        <area shape="rect" coords="115,30,195,90"
+              href="tests/bilirubin.html">
+
+        <area shape="rect" coords="210,30,290,90"
+              href="tests/ketones.html">
+
+        <area shape="rect" coords="305,30,385,90"
+              href="tests/specific-gravity.html">
+
+        <area shape="rect" coords="400,30,480,90"
+              href="tests/blood.html">
+
+        <area shape="rect" coords="20,110,100,170"
+              href="tests/ph.html">
+
+        <area shape="rect" coords="115,110,195,170"
+              href="tests/protein.html">
+
+        <area shape="rect" coords="210,110,290,170"
+              href="tests/urobilinogen.html">
+
+        <area shape="rect" coords="305,110,385,170"
+              href="tests/nitrite.html">
+
+        <area shape="rect" coords="400,110,480,170"
+              href="tests/leukocytes.html">
+
+    </map>
+</section>
+
+<section>
+    <h2>Urine Test Information</h2>
+
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Sample</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td>Glucose</td>
+            <td>Urine</td>
+            <td>Checks glucose presence</td>
+        </tr>
+
+        <tr>
+            <td>Protein</td>
+            <td>Urine</td>
+            <td>Checks protein presence</td>
+        </tr>
+
+        <tr>
+            <td>Blood</td>
+            <td>Urine</td>
+            <td>Checks blood-related reaction</td>
+        </tr>
+
+        <tr>
+            <td>pH</td>
+            <td>Urine</td>
+            <td>Measures urine acidity/alkalinity</td>
+        </tr>
+    </table>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 City Care Hospital</p>
+</footer>
+
+</body>
+</html>

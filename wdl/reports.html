@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - City Care Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>City Care Hospital</h1>
+    <p>Laboratory Reports</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="tests.html">Laboratory Tests</a>
+    <a href="packages.html">Health Packages</a>
+    <a href="registration.html">Online Registration</a>
+    <a href="reports.html">Reports</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main>
+
+<section>
+
+<h2>Patient Laboratory Report</h2>
+
+<div id="reportBox">
+
+    <p><strong>Patient Name:</strong> <span id="reportName">No patient registered</span></p>
+
+    <p><strong>Patient ID:</strong> <span id="reportId">---</span></p>
+
+    <p><strong>Test:</strong> <span id="reportTest">---</span></p>
+
+    <p><strong>Department:</strong> <span id="reportDepartment">---</span></p>
+
+</div>
+
+<h3>Urine Test Parameters</h3>
+
+<table>
+
+<tr>
+    <th>Parameter</th>
+    <th>Result</th>
+    <th>Status</th>
+</tr>
+
+<tr>
+    <td>Glucose</td>
+    <td>Negative</td>
+    <td>Normal</td>
+</tr>
+
+<tr>
+    <td>Protein</td>
+    <td>Negative</td>
+    <td>Normal</td>
+</tr>
+
+<tr>
+    <td>Blood</td>
+    <td>Negative</td>
+    <td>Normal</td>
+</tr>
+
+<tr>
+    <td>Ketones</td>
+    <td>Negative</td>
+    <td>Normal</td>
+</tr>
+
+<tr>
+    <td>pH</td>
+    <td>6.0</td>
+    <td>Normal</td>
+</tr>
+
+<tr>
+    <td>Specific Gravity</td>
+    <td>1.020</td>
+    <td>Normal</td>
+</tr>
+
+</table>
+
+<p class="note">
+    This report is a front-end demonstration. Laboratory results should be
+    reviewed and confirmed by a qualified clinician.
+</p>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 City Care Hospital</p>
+</footer>
+
+<script>
+    let savedPatient = JSON.parse(localStorage.getItem("patientData"));
+
+    if (savedPatient) {
+        document.getElementById("reportName").textContent = savedPatient.name;
+        document.getElementById("reportId").textContent = savedPatient.patientId;
+        document.getElementById("reportTest").textContent = savedPatient.test;
+        document.getElementById("reportDepartment").textContent = savedPatient.department;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Care Hospital - Healthcare Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>City Care Hospital</h1>
+    <p>Healthcare and Diagnostic Laboratory Portal</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="tests.html">Laboratory Tests</a>
+    <a href="packages.html">Health Packages</a>
+    <a href="registration.html">Online Registration</a>
+    <a href="reports.html">Reports</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main>
+
+    <section class="hero">
+        <h2>Welcome to City Care Hospital</h2>
+        <p>
+            City Care Hospital provides healthcare and diagnostic laboratory
+            services with a focus on reliable patient registration, laboratory
+            information and digital test reports.
+        </p>
+
+        <a class="button" href="registration.html">Register Online</a>
+        <a class="button" href="tests.html">View Laboratory Tests</a>
+    </section>
+
+    <section>
+        <h2>Our Laboratory Services</h2>
+
+        <div class="card-container">
+
+            <article class="card">
+                <h3>Urine Test Strip</h3>
+                <p>
+                    Explore the reagent pads used in urine strip testing and
+                    understand the purpose of each parameter.
+                </p>
+                <a href="tests.html">Explore Test</a>
+            </article>
+
+            <article class="card">
+                <h3>Routine Laboratory Tests</h3>
+                <p>
+                    Information about CBC, HbA1c, LFT, KFT and ECG tests.
+                </p>
+                <a href="tests.html">View Tests</a>
+            </article>
+
+            <article class="card">
+                <h3>Digital Reports</h3>
+                <p>
+                    View sample patient test reports and laboratory result
+                    information.
+                </p>
+                <a href="reports.html">View Reports</a>
+            </article>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Urine Test Strip</h2>
+
+        <p>
+            The urine strip contains multiple reagent pads. Select a pad to
+            learn more about the corresponding test.
+        </p>
+
+        <img
+            src="images/urine-strip.svg"
+            alt="Urine Test Strip"
+            class="strip-image"
+            usemap="#urineMap">
+
+        <map name="urineMap">
+
+            <area shape="rect" coords="20,30,100,90"
+                  href="tests/glucose.html"
+                  alt="Glucose">
+
+            <area shape="rect" coords="115,30,195,90"
+                  href="tests/bilirubin.html"
+                  alt="Bilirubin">
+
+            <area shape="rect" coords="210,30,290,90"
+                  href="tests/ketones.html"
+                  alt="Ketones">
+
+            <area shape="rect" coords="305,30,385,90"
+                  href="tests/specific-gravity.html"
+                  alt="Specific Gravity">
+
+            <area shape="rect" coords="400,30,480,90"
+                  href="tests/blood.html"
+                  alt="Blood">
+
+            <area shape="rect" coords="20,110,100,170"
+                  href="tests/ph.html"
+                  alt="pH">
+
+            <area shape="rect" coords="115,110,195,170"
+                  href="tests/protein.html"
+                  alt="Protein">
+
+            <area shape="rect" coords="210,110,290,170"
+                  href="tests/urobilinogen.html"
+                  alt="Urobilinogen">
+
+            <area shape="rect" coords="305,110,385,170"
+                  href="tests/nitrite.html"
+                  alt="Nitrite">
+
+            <area shape="rect" coords="400,110,480,170"
+                  href="tests/leukocytes.html"
+                  alt="Leukocytes">
+
+        </map>
+    </section>
+
+    <section>
+        <h2>Testing Process</h2>
+
+        <ol>
+            <li>Patient registers for the laboratory test.</li>
+            <li>Required sample is collected.</li>
+            <li>Laboratory testing is performed.</li>
+            <li>Results are recorded.</li>
+            <li>Patient report is generated.</li>
+            <li>A clinician reviews the result.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Hospital Facilities</h2>
+
+        <video
+            src="videos/videoplayback.mp4"
+            width="500"
+            controls
+            muted
+            loop>
+        </video>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 City Care Hospital | Healthcare Web Portal</p>
+</footer>
+
+</body>
+</html>
